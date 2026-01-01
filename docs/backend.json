@@ -1,0 +1,258 @@
+{
+  "entities": {
+    "branding": {
+      "title": "Branding",
+      "description": "Contiene los elementos de la marca, como el logo.",
+      "type": "object",
+      "properties": {
+        "logoUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL del logo de la compañía."
+        }
+      }
+    },
+    "galleryImage": {
+      "title": "Gallery Image",
+      "description": "Una imagen para la galería de fotos.",
+      "type": "object",
+      "properties": {
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL de la imagen."
+        }
+      },
+      "required": [
+        "imageUrl"
+      ]
+    },
+    "post": {
+      "title": "Post",
+      "description": "An article or blog post.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the post." },
+        "author": { "type": "string", "description": "The author of the post." },
+        "publishDate": { "type": "string", "format": "date", "description": "The publication date of the post." },
+        "article": { "type": "string", "description": "The full content of the post." },
+        "imageUrl": { "type": "string", "format": "uri", "description": "URL of the post's main image." }
+      },
+      "required": ["title", "author", "publishDate", "article"]
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Represents a single performance of a play, including date and location.",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "description": "The date of the performance (YYYY-MM-DD)." },
+        "location": { "type": "string", "description": "The specific venue or theatre." },
+        "city": { "type": "string", "description": "The city of the performance." },
+        "province": { "type": "string", "description": "The province of the performance." }
+      },
+      "required": ["date", "location", "city", "province"]
+    },
+    "play": {
+      "title": "Play",
+      "description": "A theatre play.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the play." },
+        "genre": { "type": "string", "description": "The genre of the play." },
+        "premiereDate": { "$ref": "#/entities/performance" },
+        "duration": { "type": "string", "description": "The duration of the play in minutes." },
+        "author": { "type": "string", "description": "The author of the play." },
+        "director": { "type": "string", "description": "The director of the play." },
+        "synopsis": { "type": "string", "description": "A brief synopsis of the play." },
+        "actors": {
+          "type": "array",
+          "description": "List of actor names.",
+          "items": { "type": "string" }
+        },
+        "performanceDates": {
+          "type": "array",
+          "description": "List of performances with their dates and locations.",
+          "items": { "$ref": "#/entities/performance" }
+        },
+        "onShow": { "type": "boolean", "description": "Is the play currently on show?" },
+        "nextShow": { "$ref": "#/entities/performance" },
+        "ticketUrl": { "type": "string", "format": "uri", "description": "URL to buy tickets." },
+        "posterUrl": { "type": "string", "format": "uri", "description": "URL of the play's poster image." }
+      },
+      "required": ["title", "genre", "premiereDate", "duration", "author", "director", "synopsis"]
+    },
+    "relatedWebsite": {
+      "title": "Related Website",
+      "description": "A website of interest related to the theatre world.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the website."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the website."
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief description of the website."
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the uploaded image for the website."
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "description"
+      ]
+    },
+    "homePageContent": {
+      "title": "Home Page Content",
+      "description": "Content for the home page.",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The main title of the home page."
+        },
+        "paragraph": {
+          "type": "string",
+          "description": "The introductory paragraph on the home page."
+        }
+      },
+      "required": [
+        "title",
+        "paragraph"
+      ]
+    },
+    "castMember": {
+      "title": "Cast Member",
+      "description": "A member of the theatre cast.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the cast member."
+        },
+        "roles": {
+          "type": "array",
+          "description": "The roles of the cast member in the company.",
+          "items": { "type": "string" }
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief biography or description of the cast member."
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the uploaded image for the cast member."
+        }
+      },
+      "required": [
+        "name",
+        "roles",
+        "description"
+      ]
+    },
+    "socialLink": {
+      "title": "Social Link",
+      "description": "A link to a social media profile.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["Facebook", "YouTube", "Instagram", "X"],
+          "description": "The name of the social media platform."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the social media profile."
+        }
+      },
+      "required": ["name", "url"]
+    },
+    "mention": {
+      "title": "Mention",
+      "description": "An external mention or press article about the company.",
+      "type": "object",
+      "properties": {
+        "source": { "type": "string", "description": "The source of the mention (e.g., newspaper, magazine)." },
+        "date": { "type": "string", "format": "date", "description": "The date of the mention." },
+        "title": { "type": "string", "description": "The title of the article or mention." },
+        "type": { "type": "string", "enum": ["digital", "traditional"], "description": "The type of media." },
+        "url": { "type": "string", "format": "uri", "description": "The URL to the original article (if digital)." },
+        "content": { "type": "string", "description": "The full text content of the article (if traditional)." },
+        "imageUrl": { "type": "string", "format": "uri", "description": "URL of an associated image (e.g., logo)." }
+      },
+      "required": ["source", "date", "title", "type"]
+    },
+    "adminUser": {
+        "title": "Admin User",
+        "description": "A user with administrative privileges.",
+        "type": "object",
+        "properties": {
+            "uid": { "type": "string", "description": "The user's unique ID from Firebase Auth." },
+            "email": { "type": "string", "format": "email", "description": "The user's email address." }
+        },
+        "required": ["uid", "email"]
+    }
+  },
+  "auth": {
+    "providers": ["Email and Password", "Google", "Facebook"]
+  },
+  "firestore": {
+    "/branding/main": {
+      "schema": { "$ref": "#/entities/branding" },
+      "description": "Almacena la configuración de la marca, como el logo."
+    },
+    "/gallery/{imageId}": {
+      "schema": { "$ref": "#/entities/galleryImage" },
+      "description": "Almacena las imágenes de la galería."
+    },
+    "/posts/{postId}": {
+      "schema": { "$ref": "#/entities/post" },
+      "description": "Stores documents for each blog post."
+    },
+    "/plays/{playId}": {
+        "schema": { "$ref": "#/entities/play" },
+        "description": "Stores documents for each theatre play."
+    },
+    "/related-web/{websiteId}": {
+      "schema": {
+        "$ref": "#/entities/relatedWebsite"
+      },
+      "description": "Stores documents for related websites."
+    },
+    "/pages/home": {
+      "schema": {
+        "$ref": "#/entities/homePageContent"
+      },
+      "description": "Stores content for the home page."
+    },
+    "/cast/{memberId}": {
+      "schema": {
+        "$ref": "#/entities/castMember"
+      },
+      "description": "Stores documents for each cast member."
+    },
+    "/social-links/{linkId}": {
+      "schema": { "$ref": "#/entities/socialLink" },
+      "description": "Stores links to social media profiles."
+    },
+    "/mentions/{mentionId}": {
+      "schema": { "$ref": "#/entities/mention" },
+      "description": "Stores documents for external mentions."
+    },
+    "/admins/{adminId}": {
+        "schema": { "$ref": "#/entities/adminUser" },
+        "description": "Stores a list of users with admin privileges."
+    }
+  }
+}
