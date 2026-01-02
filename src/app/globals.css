@@ -24,6 +24,11 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 217 91% 60%;
     --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
   }
 
   .dark {
@@ -46,6 +51,11 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 217 91% 60%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
   }
 }
 
@@ -55,20 +65,26 @@
   }
   body {
     @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Definiciones de gradiente para el logo SVG */
+  body {
+    --fill1: url(#fill1);
+    --fill2: url(#fill2);
+    --fill3: url(#fill3);
+    --stroke-grad: url(#stroke-grad);
   }
 }
 
-@layer utilities {
-  .animate-scroll {
-    display: flex;
-    gap: 1rem;
-    width: max-content;
-    animation: scroll 60s linear infinite;
-  }
-
-  @keyframes scroll {
-    to {
-      transform: translateX(calc(-50% - 0.5rem));
-    }
-  }
+/* 
+  Esto se añade para que los gradientes del SVG sean estáticos 
+  y no causen errores de hidratación en Next.js
+*/
+.svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
