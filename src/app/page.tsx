@@ -52,6 +52,7 @@ export default function Home() {
         .sort(() => 0.5 - Math.random())
         .slice(0, 10);
       
+      // Duplicamos las imágenes para el efecto de scroll infinito
       setImages([...shuffledImages, ...shuffledImages]);
     }
 
