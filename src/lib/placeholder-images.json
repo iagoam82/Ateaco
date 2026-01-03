@@ -1,0 +1,184 @@
+{
+  "placeholderImages": [
+    {
+      "id": "cast-1",
+      "description": "Retrato de un miembro del elenco sonriendo.",
+      "imageUrl": "https://images.unsplash.com/photo-1615484800095-7f6bbb859637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwb3J0cmFpdCUyMGFjdG9yfGVufDB8fHx8MTc2NTExMjMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait actor"
+    },
+    {
+      "id": "cast-2",
+      "description": "Retrato de una miembro del elenco con expresión pensativa.",
+      "imageUrl": "https://images.unsplash.com/photo-1706824265660-5ca5effaf122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwb3J0cmFpdCUyMGFjdHJlc3N8ZW58MHx8fHwxNzY1MTEyMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait actress"
+    },
+    {
+      "id": "cast-3",
+      "description": "Retrato de un miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1597466372553-872e25a63b11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoZWFkc2hvdCUyMHBlcnNvbnxlbnwwfHx8fDE3NjUxMDA1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headshot person"
+    },
+    {
+      "id": "cast-4",
+      "description": "Retrato de una miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFkc2hvdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY1MTEyMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headshot smiling"
+    },
+    {
+      "id": "cast-5",
+      "description": "Retrato de un miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjUwMjYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "cast-6",
+      "description": "Retrato de una miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1633003678751-d5eb96dbd5d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhY3RvciUyMGhlYWRzaG90fGVufDB8fHx8MTc2NTAxNTczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "actor headshot"
+    },
+    {
+      "id": "cast-7",
+      "description": "Retrato de un miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1655369767783-240c30ba4bbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhY3RyZXNzJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1MTEyMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "actress portrait"
+    },
+    {
+      "id": "cast-8",
+      "description": "Retrato de una miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1635131902146-6957477a4ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2NTAyODExMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "cast-9",
+      "description": "Retrato de un miembro del elenco.",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjUwOTc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "play-1",
+      "description": "Póster de la obra 'Luces de Bohemia'.",
+      "imageUrl": "https://images.unsplash.com/photo-1631805249874-3f546d176de4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0aGVhdHJlJTIwcG9zdGVyfGVufDB8fHx8MTc2NTExMjMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre poster"
+    },
+    {
+      "id": "play-2",
+      "description": "Póster de la obra 'La Casa de Bernarda Alba'.",
+      "imageUrl": "https://images.unsplash.com/photo-1617783919123-787b2d9e6881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbGF5JTIwcG9zdGVyfGVufDB8fHx8MTc2NTExMjMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "play poster"
+    },
+    {
+      "id": "play-3",
+      "description": "Póster de la obra 'Tres Sombreros de Copa'.",
+      "imageUrl": "https://images.unsplash.com/photo-1589824769965-d2bdab6dfe57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW50YWdlJTIwcG9zdGVyfGVufDB8fHx8MTc2NTAyMzk3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage poster"
+    },
+    {
+      "id": "play-4",
+      "description": "Póster de la obra 'El Perro del Hortelano'.",
+      "imageUrl": "https://images.unsplash.com/photo-1460036521480-ff49c08c2781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbGFzc2ljJTIwcGxheXxlbnwwfHx8fDE3NjUxMTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classic play"
+    },
+    {
+      "id": "post-1",
+      "description": "Imagen del escenario antes de una función.",
+      "imageUrl": "https://images.unsplash.com/photo-1571173069043-82a7a13cee9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGhlYXRyZSUyMHN0YWdlfGVufDB8fHx8MTc2NTA1MzA2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre stage"
+    },
+    {
+      "id": "post-2",
+      "description": "Actores ensayando una escena.",
+      "imageUrl": "https://images.unsplash.com/photo-1685287919403-c6627c76f7b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0aGVhdHJlJTIwcmVoZWFyc2FsfGVufDB8fHx8MTc2NTExMjMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre rehearsal"
+    },
+    {
+      "id": "post-3",
+      "description": "El público aplaudiendo al final de una obra.",
+      "imageUrl": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0aGVhdHJlJTIwYXVkaWVuY2V8ZW58MHx8fHwxNzY1MTEyMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre audience"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Actor en el escenario bajo un foco.",
+      "imageUrl": "https://images.unsplash.com/photo-1728990492073-46c2f0862ace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY3RvciUyMHNwb3RsaWdodHxlbnwwfHx8fDE3NjUxMTIzMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "actor spotlight"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Dos actrices en una escena dramática.",
+      "imageUrl": "https://images.unsplash.com/photo-1726857377229-d7c643e2aa70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0aGVhdHJlJTIwc2NlbmV8ZW58MHx8fHwxNzY1MTEyMzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre scene"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Elenco saludando al público.",
+      "imageUrl": "https://images.unsplash.com/photo-1605376217538-5ed86f9e6b16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aGVhdHJlJTIwY2FzdHxlbnwwfHx8fDE3NjUxMTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre cast"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Un momento cómico de una obra.",
+      "imageUrl": "https://images.unsplash.com/photo-1677758171752-d24ce21c12f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21lZHklMjBwbGF5fGVufDB8fHx8MTc2NTAxNTczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy play"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Detalle del vestuario de un actor.",
+      "imageUrl": "https://images.unsplash.com/photo-1650153068482-80f175cbab02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aGVhdHJlJTIwY29zdHVtZXxlbnwwfHx8fDE3NjUxMTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre costume"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Escenografía de una obra de época.",
+      "imageUrl": "https://images.unsplash.com/photo-1704120104081-bd458cf0532c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGFnZSUyMGRlc2lnbnxlbnwwfHx8fDE3NjUxMTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stage design"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Actor gesticulando apasionadamente.",
+      "imageUrl": "https://images.unsplash.com/photo-1597169428688-254b4223ba7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcmFtYXRpYyUyMGFjdG9yfGVufDB8fHx8MTc2NTExMjMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dramatic actor"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Vista del teatro desde las butacas.",
+      "imageUrl": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aGVhdHJlJTIwc2VhdHN8ZW58MHx8fHwxNzY1MTEyMzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre seats"
+    },
+    {
+      "id": "mention-1",
+      "description": "Logo de un periódico local.",
+      "imageUrl": "https://images.unsplash.com/photo-1750816204148-5d02aff367cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuZXdzcGFwZXIlMjBsb2dvfGVufDB8fHx8MTc2NTA4MjUyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "newspaper logo"
+    },
+    {
+      "id": "mention-2",
+      "description": "Logo de una revista cultural.",
+      "imageUrl": "https://images.unsplash.com/photo-1640812570037-ea415861315b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWdhemluZSUyMGxvZ298ZW58MHx8fHwxNzY1MTEyMzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "magazine logo"
+    },
+    {
+      "id": "mention-3",
+      "description": "Logo de un blog de teatro.",
+      "imageUrl": "https://images.unsplash.com/photo-1625618010855-0964729fcb16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxibG9nJTIwbG9nb3xlbnwwfHx8fDE3NjUxMTIzMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blog logo"
+    },
+    {
+      "id": "related-1",
+      "description": "Logo de la Federación Galega de Teatro Afeccionado.",
+      "imageUrl": "https://images.unsplash.com/photo-1720799358170-86c880400cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGhlYXRyZSUyMGZlZGVyYXRpb258ZW58MHx8fHwxNzY1MTEyMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "theatre federation"
+    },
+    {
+      "id": "related-2",
+      "description": "Logo de una web de venta de entradas.",
+      "imageUrl": "https://images.unsplash.com/photo-1648484193372-dde0e7509a74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0aWNrZXRzJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjUxMTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tickets website"
+    },
+    {
+      "id": "related-3",
+      "description": "Logo del Instituto Nacional de las Artes Escénicas y de la Música.",
+      "imageUrl": "https://images.unsplash.com/photo-1660147163457-31c6a8863f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnRzJTIwaW5zdGl0dXRlfGVufDB8fHx8MTc2NTExMjMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "arts institute"
+    }
+  ]
+}
